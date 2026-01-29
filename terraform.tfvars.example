@@ -1,0 +1,13 @@
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and update with your values
+
+# Required: Your GCP Project ID
+project_id = "your-project-id-here"
+
+# Optional: Override default values
+# region          = "us-central1"
+# zone            = "us-central1-a"
+# machine_type    = "e2-micro"
+# vm_name         = "vulnerable-web-app"
+# network         = "default"
+# waf_policy_name = "se-demo-waf-policy"
