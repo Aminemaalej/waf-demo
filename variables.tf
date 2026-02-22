@@ -36,5 +36,5 @@ variable "network" {
 variable "waf_policy_name" {
   description = "Name of the Cloud Armor WAF policy"
   type        = string
-  default     = "se-demo-waf-policy"
+  default     = "demo-waf-policy"
 }
